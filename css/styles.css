@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #eee;
+  font-family: Arial, sans-serif;
+}
+
+.frame {
+  background: black;
+  padding: 14px;
+  display: inline-block;
+}
+
+table.mondrian {
+  border-collapse: separate;
+  border-spacing: 14px;
+  background: black;
+}
+
+col.col-1 { width: 70px; }
+col.col-2 { width: 260px; }
+col.col-3 { width: 190px; }
+col.col-4 { width: 105px; }
+col.col-5 { width: 170px; }
+
+td {
+  background: white;
+  height: 90px;
+}
+
+.red    { background: #e31d1a; }
+.yellow { background: #f1c40f; }
+.blue   { background: #1536d3; }
+.black  { background: black; }
+
+.h70  { height: 70px; }
+.h120 { height: 120px; }
+.h160 { height: 160px; }
+.h190 { height: 190px; }
+.h300 { height: 300px; }
